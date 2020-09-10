@@ -101,4 +101,105 @@ footer a{
     border-radius:10px;
 }
 
+/**********MEDIA QUERY***********/
+@media(max-width:900px){
+    header{
+        text-align:center;
+        width:100%;
+        height:150px;
+        background:grey;
+    }
+    header div{
+        color:white;
+        font-family: 'Lato', sans-serif;
+        font-size:2.5rem;
+        padding:10px 0 0 20px;
+    }
+    header nav{
+        display:flex;
+        width:100%;
+        height:30px;
+        margin-left:0px;
+        justify-content:space-evenly;
+        align-items:center;
+        margin-top:30px;
+    }
+    header nav a{
+       background:white;
+       text-decoration:none;
+       color:black;
+       padding:10px 25px;
+       font-family: 'Lato', sans-serif;
+       font-weight:200; 
+    }
+    .s1{
+        width:100%;
+        height:250px;
+        display:flex;
+        margin-bottom:20px;
+        text-align:center;
+    }
+    .imageDiv{
+        width:100%;
+    }
+    .imageDiv img{
+        width:100%;
+    }
+    .meText{
+        width:100%;        
+    }
+    .meText h1{
+        font-family: 'Lato', sans-serif;
+        font-size:1.5rem;
+        margin-top:20px;
+    }
+    .meText a{
+        background:black;
+        text-decoration:none;
+        color:white;
+        padding:15px 50px;
+        font-family: 'Lato', sans-serif;
+        font-weight:200;
+        border-radius:10px; 
+    }
+    .s2{        
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap;
+        margin-top:53%;
+        margin-bottom:-53%;
+    }
+    .s2 div{
+        text-align:center;
+        font-family: 'Lato', sans-serif;
+        font-size:1rem;
+    }
+    footer{
+        width:100%;
+        height:150px;
+        background:grey;
+        color:white;
+        font-family: 'Lato', sans-serif;
+        font-size:1.6rem;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-content: space-evenly;
+        margin-top:60%;
+    }
+    footer a{
+        background:black;
+        text-decoration:none;
+        color:white;
+        padding:15px 25px;
+        font-family: 'Lato', sans-serif;
+        font-size:1.4rem;
+        font-weight:200;
+        border-radius:10px;
+    }
+}
+
 
